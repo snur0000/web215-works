@@ -1,0 +1,19 @@
+body{
+	margin: 40px;
+	padding: 20px;
+	background-color:black;
+	font-family:'Open Sans';
+	}
+	
+	h1{
+	font-family:'Shadows into Light';
+	}
+	.foreground{
+	padding:40px;
+	background-color:yellow;
+	}
+	
+	a{text-decoration:none;}
+	
+	footer{
+	text-align:center;}

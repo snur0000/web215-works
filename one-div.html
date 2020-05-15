@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+	<link href="styles/brand.css" rel="stylesheet">
+  <!-- jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<title>One-div graphic</title>
+<style>
+
+#one-div{
+width:300px;
+height: 70px;
+border-radius: 100px;
+border-bottom: solid 10px #61d1ff;
+background-color: #333;
+
+}
+
+#one-div:before {
+
+ content: ' \25CF';
+ font-size: 100px;
+ position: relative;
+ top:20px;
+ right:-20px;
+ color:black;
+
+}
+
+#one-div:after {
+
+ content: ' \25CF';
+ font-size: 100px;
+ position: relative;
+ right:-200px;
+ top:-100px;
+ color:black;
+}
+
+
+</style>
+</head>
+<body>
+	<div class="wholepage">
+<div class = "loadPage">
+	<h1>One-div graphic</h1>
+
+	<br/>
+<div  id = "one-div">
+	<br/>
+</div>
+
+<div id="footer">
+</div>
+
+</div>
+<!-- closes wholepage -->
+</div>
+
+
+<!-- scripts-->
+<script>
+$(function(){
+  $("#header").load("includes/header.html");
+});
+</script>
+
+<script>
+$(function(){
+$("#footer").load("includes/footer.html");
+});
+</script>
+
+<script>
+$(document).ready(function(){
+
+   $('a').click(function(){
+       $('.loadPage').load($(this).attr('href'));
+       return false;
+   });
+});
+</script>
+
+
+</body>
+</html>

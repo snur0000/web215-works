@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+	<link href="styles/brand.css" rel="stylesheet">
+  <!-- jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<title>Introduction</title>
+</head>
+
+<body>
+
+
+	<div class = "wholepage">
+
+	<div class="loadPage">
+	<h1> Sabrina Nur </h1>
+	<br/>
+
+	<figure>
+		<img src="images/intro_pic1.jpg" alt="selfie" />
+		<figcaption>
+	&hearts;<em> Me</em> &hearts;
+	</figcaption>
+	</figure>
+	<ul>
+		<li>
+		<strong>Personal background:</strong> Hello, My name is Sabrina Nur. I am 21 years old and I'm from East Charlotte.
+	I am a part time WEB student at CPCC, hopefully graduating May 2020!	</li>
+
+		<li>
+		<strong>Professional/Academic background: </strong>I started the Information Technology Web program at  CPCC after graduating high school in 2016.
+
+		</li>
+
+		<li>
+		<strong>Information Technology Background:</strong> Previously taken: WEB 110, WEB 115, WEB 250
+		</li>
+
+		<li>
+		<strong>Interesting item about yourself to remember you by:</strong> I’m notorious for locking myself out my car and I love skateboarding!!
+		</li>
+
+		<li>
+		<strong>Primary computer platform:</strong> My macbook pro
+		</li>
+
+		<li><strong>Reason for taking each course:</strong></li>
+
+		<li>((All required to graduate))
+			<ul>
+				<li><a href="contract.html" style="color:#61d1ff;"> WEB 215</a></li>
+				<li>CSC 143</li>
+			</ul>
+			</li>
+
+	<li>
+		<strong>Work links:</strong>
+		<a href="http://students.cpcc.edu/~snur0000/"> Webspace </a> &hearts;
+		<a href="https://github.com/snur0000"> Github </a> &hearts;
+		<a href="https://snur0000.github.io/"> Github Pages </a> &hearts;
+		<a href="https://www.khanacademy.org/profile/kaid_290163196776305671751046/"> Khan Academy</a> &hearts;
+		<a href="https://www.codecademy.com/snur0000"> Codecademy </a> &hearts;
+		<a href="https://jsfiddle.net/user/snur0000"> JSFiddle </a> &hearts;
+		<a href="https://profile.edx.org/u/snur0000"> EdX </a> &hearts;
+		<a href="http://www.linkedin.com/in/sabrinan28"> LinkedIn </a>
+		</li>
+		<li><a href="contract.html"> Course Contract </a>
+	</ul>
+
+
+
+
+
+<div id="footer">
+</div>
+
+</div>
+<!-- closes wholepage -->
+</div>
+
+
+<!-- scripts-->
+<script>
+$(function(){
+  $("#header").load("includes/header.html");
+});
+</script>
+
+<script>
+$(function(){
+$("#footer").load("includes/footer.html");
+});
+</script>
+
+<script>
+$(document).ready(function(){
+
+   $('a').click(function(){
+       $('.loadPage').load($(this).attr('href'));
+       return false;
+   });
+});
+</script>
+
+
+</body>
+</html>

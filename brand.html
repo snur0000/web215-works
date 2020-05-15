@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+	<link href="styles/brand.css" rel="stylesheet">
+  <!-- jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<title>Sabby's Skate Shop</title>
+</head>
+<body>
+
+
+  <div class = "wholepage">
+
+<div class="loadPage">
+
+  <div id="header">
+  </div>
+<div id = "navlinks">
+	<a href="home.html">home</a> &#x2219;
+ 	<a href="">decks</a> &#x2219;
+	 	<a href="">trucks</a> &#x2219;
+	 	<a href="">bearings</a> &#x2219;
+ 	<a href="">wheels</a> &#x2219;
+ 	<a href="">shoes</a> &#x2219;
+ 	<a href="">miscellaneous</a> &#x2219;
+ 	<a href="">sale</a>
+</div>
+<br/>
+<h3>Mission</h3>
+Sabby's Skate Shop is a locally owned skate shop company based in Charlotte, North Carolina that has all your
+skateboarding needs!! We have decks in all sizes and shapes ranging from 7.5 - 8.9, trucks, bearings, wheels, etc, and a
+wide range of skate apparal and your favorite skate shoe brands from
+vans to nike sb.
+<p>
+We carry an amazing selection of decks from pro models from your favorite brands to locally designed and produced boards.
+We believe skateboarding is for <strong> EVERYBODY</strong> and strive to be inclusive by offering a wide selection for our
+different customer's. Come by and visit us and we will get you right :), We are open Monday - Friday from 10am - 5pm.
+Hope to see you soon!
+</p>
+
+<p>Colors and Fonts: For this page I used a backgroud color of #9e2e00(burnt orange) and a foreground color of white.
+I used a font color of #9e2e00(burnt orange) for my body text , h1 and nav links and #61d1ff(light blue) for my h2 & h3 heading.
+For my h1 heading and nav links I used a google fonts: "Lacquer" and for my body I used: "Karla".
+</p>
+
+
+<!-- end of wholepage -->
+<div id="footer">
+  </div>
+</div>
+</div>
+
+<!-- scripts-->
+<script>
+$(function(){
+  $("#header").load("includes/header.html");
+});
+</script>
+
+<script>
+$(function(){
+$("#footer").load("includes/footer.html");
+});
+</script>
+
+<script>
+$(document).ready(function(){
+
+   $('a').click(function(){
+       $('.loadPage').load($(this).attr('href'));
+       return true;
+   });
+});
+</script>
+
+
+</body>
+	</html>

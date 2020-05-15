@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<title>TOC - Sabrina Nur</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+	<link href="styles/brand.css" rel="stylesheet">
+  <!-- jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<div class = "wholepage">
+  <h1> table of contents </h1>
+  <br/>
+
+  <div id = "navlinks">
+    <a href="home.html">home</a> &#x2219;
+  	<a href="introduction.html">introduction</a> &#x2219;
+   	<a href="contract.html">contract</a> &#x2219;
+  	<a href="brand.html">brand</a> &#x2219;
+		<a href="sprites.html">sprites</a> &#x2219;
+		<a href="one-div.html">one-div</a>&#x2219;
+    <a href="everythinghtml.html">everything HTML</a>&#x2219;
+    <a href="nodetut.html">node tutorial</a>&#x2219;
+    <a href="nodeessential.html">node essential tutorial</a>&#x2219;
+    <a href="mongodb_tutorial.html">mongoDB tutorial</a>&#x2219;
+    <a href="cookies.html">Cookies</a>&#x2219;
+    <a href="basiccrud.html">basic CRUD</a>&#x2219;
+
+  </div>
+  <hr/>
+<div class="loadPage">
+  <img src = "images/skate.jpg" alt = "skate" style="width:100%;"/>
+
+
+
+
+
+<div id="footer">
+</div>
+</div>
+<!--closes "wholepage div"-->
+</div>
+
+
+
+<!-- scripts-->
+<script>
+$(function(){
+  $("#header").load("includes/header.html");
+});
+</script>
+
+<script>
+$(function(){
+$("#footer").load("includes/footer.html");
+});
+</script>
+
+<script>
+$(document).ready(function(){
+
+   $('a').click(function(){
+       $('.loadPage').load($(this).attr('href'));
+       return false;
+   });
+});
+</script>
+
+
+
+</body>
+</html>

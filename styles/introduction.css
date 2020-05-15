@@ -1,0 +1,26 @@
+body{
+	margin: 100px;
+	background-color:#0f0f0f;
+	color:	#a9eaea;
+	font-family: 'Karla', sans-serif;
+	letter-spacing: 2px;
+
+	}
+
+h1,footer{
+	text-align:center;
+	}
+	h1{
+		font-size: 50px;
+		letter-spacing: 0px;
+
+	}
+li a{
+	color:white;
+}
+figure{
+text-align: center;
+}
+#workflow{
+width:100%;
+}

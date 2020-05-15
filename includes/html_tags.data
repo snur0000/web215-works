@@ -1,0 +1,116 @@
+! -- --||Comment tags are used to insert comments in the HTML source code||Relationship: supported in HTML5||Example : &lt;!-- This is a comment! --&gt;||back to top
+!DOCTYPE||An instruction to the web browser about what version of HTML the page is written in.||Relationship: supported in HTML5. The only declaration in HTML5||Example: &lt;!DOCTYPE html&gt;||back to top
+a||Defines a hyperlink.||Relationship: supported in HTML5||Example:<br>code: &lt;a href =“brand.html”&gt; hyperlink title &lt;/a&gt; <br> output: <a href = "brand.html">Sabby’s Skate Shop </a>||back to top
+abbr||Defines an abbreviated form of a longer word or phrase.||Relationship: supported in HTML5||Example: <br>code: The &lt;abbr title = "Sabby's Skate Shop"&gt; SSS &lt;/abbr&gt; was founded in Charlotte,NC. <br>output:<abbr title = "Sabby's Skate Shop"> SSS </abbr>was founded in Charlotte,NC.||back to top
+acronym||Defines an acronym.||Relationship: NOT supported in HTML5||Example:<br>code: Let's &lt;acronym title="SKATE"&gt; SKATE! &lt;/acronym&gt; <br> output: Let's <acronym title="SKATE">SKATE! </acronym>||back to top
+address||Specifies the author's contact information.||Relationship: supported in HTML5||Example:<br> code: &lt;address&gt; Visit us at:&lt;br&gt;brand.html&lt;br&gt;1600 Plaza Midwood&lt;br&gt; NC, USA &lt;/address&gt; <br> output:<address>Visit us at:<br>Brand.html<br>1600 Plaza Midwood<br>NC, USA </address>||back to top
+applet||Embeds a Java applet (mini Java applications) on the page.||Relationship: NOT supported in HTML5. Use the &lt;object&gt; element instead.||Example:<br>code: &lt;applet code = "Bubbles.class"&gt; Java applet that draws animated bubbles &lt;applet&gt;||back to top
+area||Defines a specific area within an image map.||Relationship: supported in HTML5||Example:||back to top
+article||Defines an article.||Relationship: supported in HTML5||Example:<br>code: &lt;article&gt; &lt;h1&gt;Sabby's Skate Shop&lt; /h1&gt; &lt;p&gt;skate or die &lt;/p&gt; &lt;/article&gt; <br>output: <article><h1 style ="text-align:left;font-size:20px;">Sabby's Skate Shop</h1><p>skate or die</p></article>||back to top
+aside||Defines some content loosely related to the page content.||Relationship: supported in HTML5||Example: <br>code: &lt;h1&gt;Sabby's skate shop&lt;/h1&gt; &lt;h4&gt;New arrivals&lt;/h4&gt; &lt;aside&gt;Skate updates: &lt;/aside&gt; <br>output: <h1 style = "text-align:left; font-size:20px;">Sabby's skate shop</h1><h4>New arrivals</h4><aside>Skate updates:</aside>||back to top
+audio||Embeds a sound, or an audio stream in an HTML document.||Relationship: supported in HTML5||Example: Proper ollie on a skatebaord <br>code:<br> &lt;audio controls&gt; <br> &lt;source src = "includes/ollie.mp3" typ = "audio/mpeg"&gt; <br>&lt;/audio&gt;<br>output: <br><audio controls><source src="includes/ollie.mp3" type="audio/mpeg"> </audio>||back to top
+b||Displays text in a bold style.||Relationship: supported in HTML5||Example: <br>code: &lt;b&gt; this is the code to display bold text &lt;/b&gt; <br> output: <b>this is the code to display bold text</b> ||back to top
+base||Defines the base URL for all linked objects on a page.||Relationship: supported in HTML5||Example: <br>code &lt;base&gt;||back to top
+basefont||Obsolete Specifies the base font for a page.||Relationship: NOT supported in HTML5||Example||back to top
+bdi||Represents text that is isolated from its surrounding for the purposes of bidirectional text formatting.||Relationship: supported in HTML5||Example||back to top
+bdo||Overrides the current text direction.||Relationship: supported in HTML5||Example||back to top
+big||Obsolete Displays text in a large size.||Relationship: supported in HTML5||Example||back to top
+blockquote||Defines a long quotation.||Relationship: supported in HTML5||Example||back to top
+body||Defines the document's body.||Relationship: supported in HTML5||Example||back to top
+br||Produces a single line break.||Relationship: supported in HTML5||Example||back to top
+button||Creates a clickable button.||Relationship: supported in HTML5||Example||back to top
+canvas||Defines a region in the document, which can be used to draw graphics on the fly via scripting (usually JavaScript).||Relationship: supported in HTML5||Example||back to top
+caption||Defines the title of a table.||Relationship: supported in HTML5||Example||back to top
+center||Obsolete Align contents in the center of the enclosing block.||Relationship: supported in HTML5||Example||back to top
+cite||Indicates a citation or reference to another source.||Relationship: supported in HTML5||Example||back to top
+code||Specifies text as computer code.||Relationship: supported in HTML5||Example||back to top
+col||Defines attribute values for one or more columns in a table.||Relationship: supported in HTML5||Example||back to top
+colgroup||Specifies attributes for multiple columns in a table.||Relationship: supported in HTML5||Example||back to top
+datalist||Represents a set of pre-defined options for an &lt;input&gt; element.||Relationship: supported in HTML5||Example||back to top
+dd||Specifies a definition for a term in a definition list.||Relationship: supported in HTML5||Example||back to top
+del||Specifies a block of deleted text.||Relationship: supported in HTML5||Example||back to top
+details||Represents a widget from which the user can obtain additional information or controls on-demand.||Relationship: supported in HTML5||Example||back to top
+dfn||Specifies a definition.||Relationship: supported in HTML5||Example||back to top
+dir||Obsolete Defines a directory list.||Relationship: supported in HTML5||Example||back to top
+div||Specifies a division or a section in a document.||Relationship: supported in HTML5||Example||back to top
+dl||Defines a definition list.||Relationship: supported in HTML5||Example||back to top
+dt||Defines a term (an item) in a definition list.||Relationship: supported in HTML5||Example||back to top
+em||Specifies emphasized text.||Relationship: supported in HTML5||Example||back to top
+embed||Embeds external application, typically multimedia content like audio or video into an HTML document.||Relationship: supported in HTML5||Example||back to top
+fieldset||Specifies a set of related form fields.||Relationship: supported in HTML5||Example||back to top
+figcaption||Defines a caption or legend for a figure.||Relationship: supported in HTML5||Example||back to top
+figure||Represents a figure illustrated as part of the document.||Relationship: supported in HTML5||Example||back to top
+font||Obsolete Defines font, color, and size for text.||Relationship: supported in HTML5||Example||back to top
+footer||Represents the footer of a document or a section.||Relationship: supported in HTML5||Example||back to top
+form||Defines an HTML form for user input.||Relationship: supported in HTML5||Example||back to top
+frame||Defines a single frame within a frameset.||Relationship: supported in HTML5||Example||back to top
+frameset||Defines a collection of frames or other frameset.||Relationship: supported in HTML5||Example||back to top
+h1&gt;-&lt;h6||Defines HTML headings.||Relationship: supported in HTML5||Example||back to top
+head||Defines the head portion of the document that contains information about the document such as title.||Relationship: supported in HTML5||Example||back to top
+header||Represents the header of a document or a section.||Relationship: supported in HTML5||Example||back to top
+hgroup||Defines a group of headings.||Relationship: supported in HTML5||Example||back to top
+hr||Produce a horizontal line.||Relationship: supported in HTML5||Example||back to top
+html||Defines the root of an HTML document.||Relationship: supported in HTML5||Example||back to top
+i||Displays text in an italic style.||Relationship: supported in HTML5||Example||back to top
+iframe||Displays a URL in an inline frame.||Relationship: supported in HTML5||Example||back to top
+img||Displays an inline image.||Relationship: supported in HTML5||Example||back to top
+input||Defines an input control.||Relationship: supported in HTML5||Example||back to top
+ins||Defines a block of text that has been inserted into a document.||Relationship: supported in HTML5||Example||back to top
+kbd||Specifies text as keyboard input.||Relationship: supported in HTML5||Example||back to top
+keygen||Represents a control for generating a public-private key pair.||Relationship: supported in HTML5||Example||back to top
+label||Defines a label for an &lt;input&gt; control.||Relationship: supported in HTML5||Example||back to top
+legend||Defines a caption for a &lt;fieldset&gt; element.||Relationship: supported in HTML5||Example||back to top
+li||Defines a list item.||Relationship: supported in HTML5||Example||back to top
+link||Defines the Relationship: supported in HTML5 between the current document and an external resource.||Relationship: supported in HTML5||Example||back to top
+map||Defines a client-side image-map.||Relationship: supported in HTML5||Example||back to top
+mark||Represents text highlighted for reference purposes.||Relationship: supported in HTML5||Example||back to top
+menu||Represents a list of commands.||Relationship: supported in HTML5||Example||back to top
+meta||Provides structured metadata about the document content.||Relationship: supported in HTML5||Example||back to top
+meter||Represents a scalar measurement within a known range.||Relationship: supported in HTML5||Example||back to top
+nav||Defines a section of navigation links.||Relationship: supported in HTML5||Example||back to top
+noframes||Defines an alternate content that displays in browsers that do not support frames.||Relationship: supported in HTML5||Example||back to top
+noscript||Defines alternative content to display when the browser doesn't support scripting.||Relationship: supported in HTML5||Example||back to top
+object||Defines an embedded object.||Relationship: supported in HTML5||Example||back to top
+ol||Defines an ordered list.||Relationship: supported in HTML5||Example||back to top
+optgroup||Defines a group of related options in a selection list.||Relationship: supported in HTML5||Example||back to top
+option||Defines an option in a selection list.||Relationship: supported in HTML5||Example||back to top
+output||Represents the result of a calculation.||Relationship: supported in HTML5||Example||back to top
+p||Defines a paragraph.||Relationship: supported in HTML5||Example||back to top
+param||Defines a parameter for an object or applet element.||Relationship: supported in HTML5||Example||back to top
+pre||Defines a block of preformatted text.||Relationship: supported in HTML5||Example||back to top
+progress||Represents the completion progress of a task.||Relationship: supported in HTML5||Example||back to top
+q||Defines a short inline quotation.||Relationship: supported in HTML5||Example||back to top
+rp||Provides fall-back parenthesis for browsers that that don't support ruby annotations.||Relationship: supported in HTML5||Example||back to top
+rt||Defines the pronunciation of character presented in a ruby annotations.||Relationship: supported in HTML5||Example||back to top
+ruby||Represents a ruby annotation.||Relationship: supported in HTML5||Example||back to top
+s||Obsolete Displays text in strikethrough style.||Relationship: supported in HTML5||Example||back to top
+samp||Specifies text as sample output from a computer program.||Relationship: supported in HTML5||Example||back to top
+script||Places script in the document for client-side processing.||Relationship: supported in HTML5||Example||back to top
+section||Defines a section of a document, such as header, footer etc.||Relationship: supported in HTML5||Example||back to top
+select||Defines a selection list within a form.||Relationship: supported in HTML5||Example||back to top
+small||Displays text in a smaller size.||Relationship: supported in HTML5||Example||back to top
+source||Defines alternative media resources for the media elements like ||audio||Or ||video||.||Relationship: supported in HTML5||Example||back to top
+span||Defines an inline styleless section in a document.||Relationship: supported in HTML5||Example||back to top
+strike||Obsolete Displays text in strikethrough style.||Relationship: supported in HTML5||Example||back to top
+strong||Indicate strongly emphasized text.||Relationship: supported in HTML5||Example||back to top
+style||Inserts style information (commonly CSS) into the head of a document.||Relationship: supported in HTML5||Example||back to top
+sub||Defines subscripted text.||Relationship: supported in HTML5||Example||back to top
+summary||Defines a summary for the &lt;details&gt; element.||Relationship: supported in HTML5||Example||back to top
+sup||Defines superscripted text.||Relationship: supported in HTML5||Example||back to top
+table||Defines a data table.||Relationship: supported in HTML5||Example||back to top
+tbody||Groups a set of rows defining the main body of the table data.||Relationship: supported in HTML5||Example||back to top
+td||Defines a cell in a table.||Relationship: supported in HTML5||Example||back to top
+textarea||Defines a multi-line text input control (text area).||Relationship: supported in HTML5||Example||back to top
+tfoot||Groups a set of rows summarizing the columns of the table.||Relationship: supported in HTML5||Example||back to top
+th||Defines a header cell in a table.||Relationship: supported in HTML5||Example||back to top
+thead||Groups a set of rows that describes the column labels of a table.||Relationship: supported in HTML5||Example||back to top
+time||Represents a time and/or date.||Relationship: supported in HTML5||Example||back to top
+title||Defines a title for the document.||Relationship: supported in HTML5||Example||back to top
+tr||Defines a row of cells in a table.||Relationship: supported in HTML5||Example||back to top
+track||Defines text tracks for the media elements like &lt;audio&gt; or &lt;video&gt;.||Relationship: supported in HTML5||Example||back to top
+tt||Displays text in a teletype style.||Relationship: supported in HTML5||Example||back to top
+u||Obsolete Displays text with an underline.||Relationship: supported in HTML5||Example||back to top
+ul||Defines an unordered list.||Relationship: supported in HTML5||Example||back to top
+var||Defines a variable.||Relationship: supported in HTML5||Example||back to top
+video||Embeds video content in an HTML document.||Relationship: supported in HTML5||Example||back to top
+wbr||Represents a line break opportunity.||Relationship: supported in HTML5||Example||back to top

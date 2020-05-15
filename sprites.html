@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+	<link href="styles/brand.css" rel="stylesheet">
+  <!-- jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<title>Sabby's Skate Shop</title>
+<style>
+h2{
+text-align:left;
+}
+.sprite {
+    background: url("images/sprites.png");
+    background-repeat: no-repeat;
+}
+
+.sprite-nikesb {
+   width: 223px;
+   height: 112px;
+   background-position: -380px -146px;
+}
+
+.sprite-spitfire {
+   width: 350px;
+   height: 588px;
+   background-position: -10px -10px;
+}
+
+.sprite-thrash {
+   width: 223px;
+   height: 116px;
+   background-position: -380px -10px;
+}
+</style>
+</head>
+<body>
+
+<div class="wholepage">
+  <div class = "loadPage">
+<h1>Sprites</h1>
+<h2 >What is it?</h2>
+<ul>
+<li>An image sprite is a collection of images put into a single image.</li>
+<li>A web page with many images can take a long time to load and generates multiple server requests.</li>
+<li>Using image sprites will reduce the number of server requests and save bandwidth.</li>
+</ul>
+
+<h2>Examples:</h2>
+<p>Some of our best-selling brands we offer</p>
+<p class="sprite sprite-nikesb"></p>
+<p class="sprite sprite-spitfire"></p>
+<p class="sprite sprite-thrash"></p>
+
+<div id="footer">
+</div>
+  </div>
+  </div>
+  <!--scripts-->
+    <script>
+    $(function(){
+    $("#footer").load("includes/footer.html");
+    });
+    </script>
+
+
+</body>
+</html>

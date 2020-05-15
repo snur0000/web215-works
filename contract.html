@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lacquer&display=swap" rel="stylesheet">
+	<link href="styles/brand.css" rel="stylesheet">
+  <!-- jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<title>Course Contract</title>
+</head>
+
+<body>
+
+<div class = "wholepage">
+
+<div class="loadPage">
+	<h1> Course Contract </h1>
+	<br/>
+
+
+	I, <a href="introduction.html" style="color:#61d1ff;">Sabrina Nur</a>, agree to abide by the terms of the course contract in my Spring 2020 WEB215_85 Advanced Web markup and Scripting with my instructor,  D.I. von Briesen.
+
+	I understand that all work that I do on my website will be publicly available to the world, and will not put information there that is inappropriate for schoolwork, or that I wish to keep private.
+
+	I also understand that it is my work that counts for attendance, not logins or showing up for class. As such, failure to turn in assignments may show as absences.
+
+	<p>Signed: Sabrina Nur, January 18, 2020
+	</p>
+
+	<figure>
+		<img id= "workflow" src="images/contract.png" alt = "workflow">
+	</figure>
+
+
+	<div id="footer">
+	</div>
+
+	</div>
+
+</div>
+
+<!-- scripts-->
+<script>
+$(function(){
+	$("#header").load("includes/header.html");
+});
+</script>
+
+<script>
+$(function(){
+$("#footer").load("includes/footer.html");
+});
+</script>
+
+<script>
+$(document).ready(function(){
+
+	 $('a').click(function(){
+			 $('.loadPage').load($(this).attr('href'));
+			 return false;
+	 });
+});
+</script>
+
+
+</body>
+</html>
